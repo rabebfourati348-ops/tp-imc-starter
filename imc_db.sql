@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- phpMyAdmin SQL Dump
 -- version 5.2.3
 -- https://www.phpmyadmin.net/
@@ -116,3 +117,18 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+=======
+-- TODO : Créer la base de données `imc_db` avec l'interclassement `utf8mb4_general_ci`
+
+-- TODO : Sélectionner la base de données `imc_db`
+
+-- TODO : Créer la table `personne` (id, nom, prenom)
+
+-- TODO : Créer la table `mesure` avec le moteur InnoDB (id, personne_id, poids, taille, imc, categorie, date_mesure)
+
+-- TODO : Ajouter la contrainte de clé étrangère sur `mesure.personne_id` référençant `personne(id)` avec `ON DELETE CASCADE`
+
+-- TODO : Insérer les 3 personnes dans la table `personne` (Ben Salah Amine, Trabelsi Sana, Gharbi Youssef)
+
+-- TODO : Insérer les 5 mesures associées dans la table `mesure`
+>>>>>>> af50089fb14814c45fce27c06f178ce76183e49c
