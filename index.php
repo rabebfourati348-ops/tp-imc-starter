@@ -17,7 +17,7 @@ $mesures = $pdo->query(
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculateur d'IMC</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
