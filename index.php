@@ -42,7 +42,7 @@ $mesures = $pdo->query(
  
                 <label>
                     Poids (kg)
-                    <input id="imc-poids" name="poids" type="number" step="0.1" min="20" max="300" required />
+                    <input id="imc-poids" name="poids" type="number" step="0.1" min="1" max="500" required />
                 </label>
  
                 <label>
@@ -89,8 +89,7 @@ $mesures = $pdo->query(
                         <td><a href="supprimer.php?id=<?= (int)$m['id'] ?>"
                             onclick="return confirm('Supprimer cette mesure ?')">Supprimer</a></td>
                     </tr>
-                    <?php endforeach; ?><!-- TODO 5 (Ex 7 & 8) : Boucler sur $mesures pour afficher chaque ligne <tr> -->
-                    <!-- N'oubliez pas le lien : <a href="supprimer.php?id=...">Supprimer</a> -->
+                    <?php endforeach; ?> 
                 </tbody>
             </table>
         </section>
